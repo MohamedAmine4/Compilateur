@@ -1,0 +1,12 @@
+program abc ; 
+const C = 10 ; var A,B ; (* Ceci est un commentaire *)
+begin
+A := 0 ;
+B := 0 ; (* 1  3*)
+while A <> 0 do
+begin
+read ( A ) ; (* entrer la valeur de A tant que A different 0 *)
+B := A - B ;
+end ;
+write ( B ) ;  (* affiche le resultat final de B *)
+end .
